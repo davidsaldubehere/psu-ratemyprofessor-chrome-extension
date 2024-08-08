@@ -1,16 +1,21 @@
 .professor-info-popup {
   display: none;
   position: absolute;
-  background-color: white;
-  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.908);
+  border: 1px solid rgb(41, 41, 41);
   padding: 10px;
+  border-radius: 5px;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+iframe {
+  width: 30vw;
+  height: 40vh;
+}
 
 .info-button {
-  margin-left: 20px;
-  display: inline-block;
+  float: right;
+  margin-right: 5px;
   outline: none;
   cursor: pointer;
   border: 1px solid transparent;

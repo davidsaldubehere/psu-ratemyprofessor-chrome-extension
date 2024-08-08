@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Reading time",
-  "version": "1.0",
-  "description": "Add the reading time to Chrome Extension documentation articles",
+  "name": "Penn State Course Scheduler Rate My Professor Integration",
+  "version": "1",
+  "description": "Adds Rate My Professor ratings to the Penn State Course Scheduler",
 
   "icons": {
     "16": "images/icon-16.png",
@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
-      "matches": ["https://pennstate.collegescheduler.com/terms/*"],
+      "matches": ["https://pennstate.collegescheduler.com/*"],
       "css": ["styles.css"]
     }
   ]
